@@ -1,0 +1,91 @@
+
+@media (orientation:landscape) {
+    body {
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    body {
+        overflow: visible;
+    }
+
+    .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-left {
+        width: 50%;
+    }
+
+    .bottom-right {
+        width: 50%;
+    }
+    
+    .middle {
+        flex-direction: column;
+        padding-top: 5em;
+    }
+
+    .phone {
+        margin: 0em auto;
+    }
+
+    .info {
+        text-align: center;
+        margin: 5em auto;
+    }
+}
+
+@media (max-width: 769px) {
+    .phone {
+        width: 40%;
+    }
+
+    #white-curves {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .phone {
+        width: 50%;
+    }
+
+    #white-curves {
+        width: 50%;
+    }
+
+    #name {
+        font-size: small;
+    }
+
+    #intro {
+        font-size: xx-small;
+    }
+
+    .info {
+        width: 75%;
+    }
+
+    .attribution {
+        width: 70%;
+        line-height: 1.2em;
+    }
+}
+
+@media (max-width: 369px) {
+
+    .phone {
+        width: 75%;
+    }
+
+    #white-curves {
+        width: 50%;
+    }
+}
